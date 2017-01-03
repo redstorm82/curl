@@ -45,3 +45,12 @@ To download the very latest source off the Git server do this:
 Curl contains pieces of source code that is Copyright (c) 1998, 1999 Kungliga
 Tekniska Högskolan. This notice is included here to comply with the
 distribution terms.
+
+## Build
+1.get the openssl from https://github.com/redstorm82/openssl-OpenSSL_1_1_0-stable and compile it for https support.
+
+2.call compile_*.sh to set the env for compile the curl.
+
+3.after compile,you will get curl result in $HOME/curl_install/$ARCH.
+
+4.for deatail infomation ,please refer compile_*.sh
