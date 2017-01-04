@@ -12,7 +12,7 @@ export LD=arm-linux-androideabi-ld
 export RANLIB=arm-linux-androideabi-ranlib
 export CC="arm-linux-androideabi-gcc --sysroot=$ANDROID_SYSROOT"
 export NM=arm-linux-androideabi-nm
-./configure --host=arm-linux-androideabi --with-ssl=$HOME/openssl-install/$ARCH --disable-manual --disable-ipv6 --disable-shared --disable-FILE --disable-FTP --disable-GOPHER --disable-IMAP --disable-POP3 --disable-RTSP --disable-SMTP --disable-TELNET --disable-TFTP --prefix=$HOME/curl_install/$ARCH
+./configure --host=arm-linux-androideabi --with-ssl=$HOME/openssl-install/$ARCH --disable-manual --disable-ldap --disable-ldaps --disable-shared --disable-FILE --disable-FTP --disable-GOPHER --disable-IMAP --disable-POP3 --disable-RTSP --disable-SMTP --disable-TELNET --disable-TFTP --prefix=$HOME/curl_install/$ARCH
 ##make V=1
 make clean && make && make install
 
