@@ -14,3 +14,4 @@ export NM=mipsel-linux-nm
 ./configure --host=mipsel-linux --with-ssl=$HOME/openssl-install/$ARCH --enable-static --disable-manual  --disable-ldap --disable-ldaps --disable-shared --disable-FILE --disable-FTP --disable-GOPHER --disable-IMAP --disable-POP3 --disable-RTSP --disable-SMTP --disable-TELNET --disable-TFTP --prefix=$HOME/curl_install/$ARCH
 #make V=1
 make clean && make && make install
+#export LD_LIBRARY_PATH=$HOME/openssl-install/$ARCH/lib:$LD_LIBRARY_PATH

@@ -54,3 +54,5 @@ distribution terms.
 3.after compile,you will get curl result in $HOME/curl_install/$ARCH.
 
 4.for deatail infomation ,please refer compile_*.sh
+
+5.if you want to run curl cmd ,you must call [ export LD_LIBRARY_PATH=openssl-install—path/lib:$LD_LIBRARY_PATH ] fisrt, because curl use dynic libcrypto.so and libssl.so in openssl. 
