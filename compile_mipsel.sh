@@ -1,6 +1,6 @@
 #! /bin/sh
 #toolchain must exsites in /opt/buildroot-gcc463#
-#./buildconf
+./buildconf
 export ARCH=mipsel
 export MIPSELGCCROOT=/opt/buildroot-gcc463
 export PATH=$PATH:$MIPSELGCCROOT/usr/bin

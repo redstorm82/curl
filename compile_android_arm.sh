@@ -1,4 +1,4 @@
-#./buildconf
+./buildconf
 #export LD_LIBRARY_PATH=/home/shenshaohui/openssl-install/x86/lib: $LD_LIBRARY_PATH
 export ARCH=arm
 export NDK_ROOT=/opt/ndk/android-ndk-r13b
